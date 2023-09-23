@@ -1,0 +1,1 @@
+choco search terraform --exact --all-versions

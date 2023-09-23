@@ -1,0 +1,1 @@
+git status | ?{$_ -match "modified:"} | %{$($_ -split "modified:").trim()} | ?{$_.length -gt 0 -and $_ -match ".tf"} | %{tf fmt "./$($_)"}

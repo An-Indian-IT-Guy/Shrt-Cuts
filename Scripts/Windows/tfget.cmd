@@ -1,0 +1,1 @@
+choco install terraform --version "%~1" -my
